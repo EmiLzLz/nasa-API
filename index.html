@@ -10,14 +10,15 @@
   </head>
 
   <body>
-    <div class="main-container h-auto d-flex align-items-center justify-content-center">
-      <div class="container-fluid d-flex flex-column align-items-center justify-content-center vh-100 py-2">
-        <h5 class="py-4 fs-1 text-white" id="img-title"></h5>
-        <div class="img-container position-relative" >
+    <div class="main-container d-flex align-items-center justify-content-center">
+      <div class="container-fluid d-flex flex-column align-items-center justify-content-center py-2 gap-3">
+        <h5 class="py-4 fs-1 text-white text-center" id="img-title"></h5>
+        <div class="img-container d-flex flex-column flex-md-row align-items-center justify-content-center gap-4" >
           <img src="..." alt="image" id="img">
-          <div class="img-description position-absolute d-flex flex-column align-items-center justify-content-center p-2 gap-4" id="image-info">
+          <div class="img-description" id="image-info">
           </div>
         </div>
+        <a href="${data.hdurl}" target="_blank" class="btn btn-primary fw-bold" id="view">VIEW FULL IMAGE</a>
       </div>
     </div>
 
